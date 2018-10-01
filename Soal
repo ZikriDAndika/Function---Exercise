@@ -25,7 +25,7 @@ input <- -20:20
 plot(input, sapply(input, f), type="l", xlab = "x", ylab = "f(x)")
 
 
-#Fungsi Polinomial: F(x) = ax^3 + bx^2 + c*x + d
+#Fungsi Polinomial: F(x) = 2*x^5 + 3*x^4 - 5*x^2 + x - 7
 f <- function(x){
   fx <- 2*x^5 + 3*x^4 - 5*x^2 + x - 7
   return(fx)
