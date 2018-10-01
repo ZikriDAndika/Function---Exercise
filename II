@@ -1,0 +1,35 @@
+#SOAL SIN: f(x) = sin(x)
+f <- function(x){
+  fx <- sin(x)
+  return(fx)
+}
+t=seq(0,10,0.1)
+y=sin(t)
+plot(t,y,type = "l", xlab="time", ylab="Sine wave")
+fx(2)
+
+
+#SOAL LOG: f(x) = log (x)
+f <- function(x){
+  fx <- log(x)
+  return(fx)
+}
+plot(fx,-10,10)
+
+
+#SOAL √x − 2
+f <- function(x){
+  fx <- sqrt(x) - 2
+  return(fx)
+}
+input <- seq(1,10,0.1)
+plot(input, sapply(input, f), type = "l", xlab = "x", ylab = "f(x)")
+
+
+#SOAL √(x − 2)
+f <- function(x){
+  fx <- (sqrt (x - 2))
+  return(fx)
+}
+input <- seq(1,10,0.1)
+plot(input, sapply(input, f), type = "l", xlab = "x", ylab = "f(x)")
