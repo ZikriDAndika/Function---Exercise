@@ -1,5 +1,14 @@
-#Fungsi Linear
-1. Diketahui fungsi linear f : x → f(x) = ax + b dengan nilai f(0) = 4 dan nilai f(4) = 4. Hitunglah nilai a dan b?
+#Fungsi Konstan
+1. F(x) = 2
 
-#Fungsi 
-2. 
+#Fungsi Linear
+2. Diketahui fungsi linear f : x → f(x) = ax + b dengan nilai f(0) = 4 dan nilai f(4) = 4. Hitunglah nilai a dan b?
+
+#Fungsi Kuadrat
+3. F(x) = x^2 - 2x - 3
+
+#Fungsi Polinomial
+4. F(x) = ax^3 + bx^2 + cx + d
+
+#Fungsi Rasional
+5. F(x) = x / x - 1
